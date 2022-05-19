@@ -1,0 +1,73 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+*, *::after, *::after{
+  box-sizing: inherit;
+}
+
+html, body{
+  height: 100%;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  /* display: block; */
+  /* margin: 0 auto; */
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body{
+  background-color: rgb(5, 2, 5);
+}
+
+main{
+  /* text-align: center; */
+  height: 100%;
+  background-image: url(https://cdn.glitch.global/9c113f37-f26b-4bfd-b030-cb38da926307/bluespace.jpeg?v=1651886991863);
+  background-size: cover;
+  background-position: center;
+}
+
+.hidden{
+  display: none;
+}
+
+h1, h2, h3, h4{
+  text-align: center;
+  color: wheat;
+  padding: 0 10%;
+}
+
+input , button{
+  background-color: rgb(5, 2, 5);
+  color: wheat;
+  color-scheme: dark;
+  border: 1px solid wheat;
+  padding: 5px;
+  margin: 1px;
+  border-radius: 10px;
+  width: 110px;
+  height: 20px;
+}
+
+.dateNbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe{
+  display: block;
+  border: none;
+  height: 100vh;
+  width: 100vw;
+}
